@@ -1,1 +1,1 @@
-gsap.fromTo('.box', { yPercent: -100 }, { duration: 2, yPercent: 100, backgroundColor: '#ffe2c5', repeat: 3, yoyo: true })
+gsap.fromTo('.box', { scale: 0 }, { duration: 2, scale: 1, backgroundColor: '#000', yoyo: true, stagger: { each: .6, repeat: -1, yoyo: true, from: 'center' }})
